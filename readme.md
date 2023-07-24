@@ -34,7 +34,7 @@ In this section, you will find our company's guiding principles, code of conduct
 
 Frequently Asked Questions (FAQs) are collected here to provide quick answers to common queries. This document will help team members find answers to common questions without hassle.
 
-[TODO: Link](https://test.com)
+[Link](https://github.com/Gopher-Industries/company-docs/blob/master/docs/frequently-asked-questions.md)
 
 ### On-boarding
 
