@@ -1,5 +1,37 @@
 # Gopher Industries FAQ
 
+### **Table of Contents**
+## Table of Contents
+
+1. [What is Capstone?](#what-is-capstone)
+2. [What is Gopher Industries? (updated)](#what-is-gopher-industries-updated)
+3. [How does Gopher Industries aim to improve people's health and well-being? (added) (need to update)](#how-does-gopher-industries-aim-to-improve-peoples-health-and-well-being-added-need-to-update)
+4. [What is a project?](#what-is-a-project)
+5. [What are the major and minor products currently being developed by Gopher Industries? (added) (need to update)](#what-are-the-major-and-minor-products-currently-being-developed-by-gopher-industries-added-need-to-update)
+6. [What technologies does Gopher Industries use to achieve its goals? (added) (need to update)](#what-technologies-does-gopher-industries-use-to-achieve-its-goals-added-need-to-update)
+7. [How can I access/edit the Trello Boards? (updated)](#how-can-i-accessedit-the-trello-boards-updated)
+8. [How can I access the Gopher GitHub? (updated)](#how-can-i-access-the-gopher-github-updated)
+9. [I cannot edit the project GitHub. How do I make code changes?](#i-cannot-edit-the-project-github-how-do-i-make-code-changes)
+10. [How do I know my role in the company?](#how-do-i-know-my-role-in-the-company)
+11. [What about specific roles? (updated)](#what-about-specific-roles-updated)
+12. [How can I contribute as a member of Gopher Industries? (added) (need to update)](#how-can-i-contribute-as-a-member-of-gopher-industries-added-need-to-update)
+13. [I want to get a D/HD grade. How can I achieve this?](#i-want-to-get-a-dhd-grade-how-can-i-achieve-this)
+14. [How does Gopher Industries manage communication among team members? (added) (need to update)](#how-does-gopher-industries-manage-communication-among-team-members-added-need-to-update)
+15. [What are Product Standup Meetings, and how often are they held? (added) (need to update)](#what-are-product-standup-meetings-and-how-often-are-they-held-added-need-to-update)
+16. [What happens if I cannot make a meeting?](#what-happens-if-i-cannot-make-a-meeting)
+17. [How do I track my contributions to capstone? (updated)](#how-do-i-track-my-contributions-to-capstone-updated)
+18. [Do I get to pick what products I want to join? (updated)](#do-i-get-to-pick-what-products-i-want-to-join-updated)
+19. [What is the SCRUM framework, and how is it used in Gopher Industries' coordination process? (added) (need to update)](#what-is-the-scrum-framework-and-how-is-it-used-in-gopher-industries-coordination-process-added-need-to-update)
+20. [What are the expectations and guidelines for participating in the company's innovation projects? (added) (need to update)](#what-are-the-expectations-and-guidelines-for-participating-in-the-companys-innovation-projects-added-need-to-update)
+21. [Can I contribute to multiple projects simultaneously, and how do I manage my workload efficiently? (added) (need to update)](#can-i-contribute-to-multiple-projects-simultaneously-and-how-do-i-manage-my-workload-efficiently-added-need-to-update)
+22. [How are decisions made within Gopher Industries, and how can I provide input or feedback on projects? (added) (need to update)](#how-are-decisions-made-within-gopher-industries-and-how-can-i-provide-input-or-feedback-on-projects-added-need-to-update)
+23. [How does Gopher Industries measure the success of its projects and initiatives? (added) (need to update)](#how-does-gopher-industries-measure-the-success-of-its-projects-and-initiatives-added-need-to-update)
+24. [What networking opportunities are available for team members within the med-tech and health-tech industry? (added) (need to update)](#what-networking-opportunities-are-available-for-team-members-within-the-med-tech-and-health-tech-industry-added-need-to-update)
+25. [What happens if I encounter challenges or conflicts within the team? Is there a process to address such issues? (added) (need to update)](#what-happens-if-i-encounter-challenges-or-conflicts-within-the-team-is-there-a-process-to-address-such-issues-added-need-to-update)
+26. [Can I collaborate with students from other teams or faculties within Deakin University on Gopher projects? (added) (need to update)](#can-i-collaborate-with-students-from-other-teams-or-faculties-within-deakin-university-on-gopher-projects-added-need-to-update)
+27. [How can I seek help or ask questions if I need assistance? (updated)](#how-can-i-seek-help-or-ask-questions-if-i-need-assistance-updated)
+
+
 ### **What is Capstone?**
 
 The Capstone Program is all about demonstrating achievement of your degree’s course learning outcomes. Within the capstone program, you demonstrate your capabilities by engaging with other students within one of the capstone companies.
