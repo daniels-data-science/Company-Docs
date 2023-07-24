@@ -7,7 +7,7 @@ Welcome to the Gopher Industries Documentation Repository! This Git repository s
 1. [Introduction](#introduction)
 2. [Getting Started](#getting-started)
 3. [Quick links](#quick-links)
-    - [Company Vision & Policies](#company-vision-&-policies)
+    - [Company Vision & Policies](#company-vision-and-policies)
     - [FAQs](#faqs)
     - [On-boarding](#on-boarding)
     - [Contributing](#contributing)
@@ -24,7 +24,7 @@ If you're new to Git and GitHub, here are some resources to help you get started
 - [GitHub Hello World](https://guides.github.com/activities/hello-world/)
 
 ## Quick links:
-### Company Vision & Policies
+### Company Vision and Policies
 
 In this section, you will find our company's guiding principles, code of conduct, and other policies that define the way we operate. It's essential to familiarize yourself with these policies to align with our core values and maintain a positive working environment.
 
