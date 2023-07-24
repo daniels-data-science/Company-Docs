@@ -6,11 +6,11 @@ Welcome to the Gopher Industries Documentation Repository! This Git repository s
 
 1. [Introduction](#introduction)
 2. [Getting Started](#getting-started)
-3. [Company Policies](#company-policies)
-4. [FAQs](#faqs)
-5. [On-boarding](#on-boarding)
-6. [Contributing](#contributing)
-7. [License](#license)
+3. [Quick links](#quick-links)
+    - [Company Vision & Policies](#company-vision-&-policies)
+    - [FAQs](#faqs)
+    - [On-boarding](#on-boarding)
+    - [Contributing](#contributing)
 
 ## Introduction
 
@@ -28,7 +28,7 @@ If you're new to Git and GitHub, here are some resources to help you get started
 
 In this section, you will find our company's guiding principles, code of conduct, and other policies that define the way we operate. It's essential to familiarize yourself with these policies to align with our core values and maintain a positive working environment.
 
-[TODO: Link](https://test.com)
+[Link](https://github.com/Gopher-Industries/company-docs/blob/master/docs/company-vision-policies.md)
 
 ### FAQs
 
@@ -40,13 +40,13 @@ Frequently Asked Questions (FAQs) are collected here to provide quick answers to
 
 Welcome aboard! This document contains comprehensive information and step-by-step guides to help new team members smoothly integrate into Gopher Industries.
 
-[TODO: Link](https://test.com)
+[Link](https://github.com/Gopher-Industries/company-docs/blob/master/docs/onboarding-process.md)
 
 ### Contributing
 
 Collaboration is at the heart of Gopher Industries. We encourage all team members to actively participate and contribute to the improvement of our documentation and projects. Whether you spot an error, have suggestions, or want to add new content, please follow our contribution guidelines outlined here.
 
-[TODO: Link](https://test.com)
+[Link](https://github.com/Gopher-Industries/company-docs/blob/master/docs/how-to-contribute.md)
 
 ### Contact
 
