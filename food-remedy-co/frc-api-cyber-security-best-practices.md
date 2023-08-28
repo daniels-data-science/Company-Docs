@@ -431,3 +431,21 @@ Conducting a security audit of a Trello account is crucial to maintaining a secu
 ## Conclusion
 
 This sample report provides a comprehensive overview of cyber security best practices and measures to enhance the security posture of various aspects such as IAM policy management, GitHub security auditing, Trello security configuration, and cloud security posture assessment for different cloud platforms. By implementing these recommended practices, organizations can significantly reduce the risks associated with security misconfigurations, data exposure, and unauthorized access, ultimately ensuring a more secure environment for their projects and data.
+
+## References
+
+1. [Google Search Operators](https://support.google.com/websearch/answer/2466433?hl=en): Learn about advanced search operators to refine your Google searches.
+2. [Hardcoded Credentials: A Common Security Risk](Reference: Hardcoded Credentials: A Common Security Risk): Understand the risks and methods of identifying hardcoded credentials.
+3. [OSINT Framework](https://osintframework.com/): Tools and techniques for gathering intelligence from publicly available sources.
+4. [Google Hacking Database](https://www.exploit-db.com/google-hacking-database): A collection of Google dorks and search queries for finding specific vulnerabilities.
+5. [Shodan](https://www.shodan.io/): A search engine for internet-connected devices, useful for identifying exposed systems.
+6. [Censys](https://censys.io/): A search engine for discovering devices and collecting data about them.
+7. [Have I Been Pwned](https://haveibeenpwned.com/): Check if your email or passwords have been compromised in data breaches.
+8. [GitHub Security Best Practices](https://docs.github.com/en/github/security/getting-started-with-security): Best practices for securing your GitHub repositories and accounts.
+9. Cloud Security Best Practices:
+   - [AWS Security Best Practices](https://aws.amazon.com/security/best-practices/): AWS security best practices.
+   - [Azure Security Best Practices](https://learn.microsoft.com/en-us/azure/security/azure-security-best-practices): Azure security best practices.
+   - [Google Cloud Security Best Practices](https://cloud.google.com/security/best-practices): Google Cloud security best practices.
+10. [OWASP](https://owasp.org/): Open Web Application Security Project, a community-driven organization focused on improving software security.
+11. [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework): A guideline to manage and reduce cybersecurity risk from the National Institute of Standards and Technology (NIST).
+12. [CIS Controls](https://www.cisecurity.org/controls/): A list of best practices to help organizations defend against cyber attacks from the Center for Internet Security (CIS).
