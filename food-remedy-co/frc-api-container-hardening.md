@@ -1,23 +1,23 @@
-Research Methods
-Hardening Solution Containers
+# Research Methods
+## Hardening Solution Containers
  
 
-Abin Abraham Jacob
-1st September, 2023
-1. Introduction
+### Abin Abraham Jacob
+### 1st September, 2023
+## 1. Introduction
 In today's technology landscape, containerization is widely adopted to streamline application deployment and management. However, ensuring the security of containers is paramount to protect sensitive data and prevent cyber threats. This research report explores the concept of container hardening, focusing on technologies like MySQL, .NET, and React. We will delve into what container hardening is, why it is crucial, and methods to achieve it, with a specific emphasis on container hardening in Google Cloud Platform (GCP).
 
-2. What is Container Hardening?
+## 2. What is Container Hardening?
 Container enhancement is the process of securing containerized applications and their runtime environments to minimize vulnerabilities and improve security. This involves implementing a series of security measures to reduce the attack surface and protect from various threats, including  unauthorized access, data breaches, and code exploitation.
 
-3. Why is Container Hardening Necessary?
+## 3. Why is Container Hardening Necessary?
 Container hardening is necessary for several reasons:
 Minimizing Attack Surface: Containers often run with minimal operating system components, reducing the attack surface compared to traditional VMs. However, hardening further minimizes this surface to limit potential vulnerabilities.
 Mitigating Vulnerabilities: Containerized applications may include vulnerabilities that can be exploited. Hardening helps identify and address these vulnerabilities, reducing the risk of exploitation.
 Protecting Sensitive Data: Many applications process sensitive data. Container hardening ensures that data remains confidential, preserving its integrity and availability.
 Compliance Requirements: Regulatory compliance often mandates security measures to safeguard data. Container hardening aids in meeting these requirements.
 
-4. Methods for Container Hardening
+## 4. Methods for Container Hardening
 Container hardening involves a range of methods:
 Base Image Security: Use official and well-maintained base images. Regularly update base images to patch known vulnerabilities.
 Image Scanning: Employ image scanning tools to identify vulnerabilities in container images. Tools like Clair and Trivy can help automate this process.
@@ -26,7 +26,7 @@ Network Segmentation: Isolate containers using network policies to control traff
 Runtime Security: Implement runtime security tools like AppArmor or SELinux to control processes within containers.
 Secret Management: Store and manage secrets separately from application code and container images. Tools like HashiCorp Vault or Kubernetes Secrets can assist.
 
-5. Container Hardening in Google Cloud Platform (GCP)
+## 5. Container Hardening in Google Cloud Platform (GCP)
 In GCP, you can employ several strategies to harden containers:
 Google Kubernetes Engine (GKE): GKE provides security features such as network policies, identity and access management (IAM) controls, and automated updates for node pools.
 Binary Authorization: Use Binary Authorization to enforce container image validation and approval before deployment.
@@ -34,7 +34,7 @@ Vulnerability Scanning: GCP's Container Analysis API enables vulnerability scann
 Identity-Aware Proxy (IAP): Secure access to containerized applications by implementing IAP to manage user access based on identity and context.
 Google Cloud Security Command Center: Use Security Command Center to gain visibility into the security status of GCP resources, including containerized applications.
 
-6. Some more strategies to keep in mind:
+## 6. Some more strategies to keep in mind:
 Using the official image:
 Start with official base container images from reputable sources. These images are usually maintained and updated regularly, reducing the risk of known vulnerabilities.
 Updated frequently:
@@ -60,7 +60,7 @@ Perform regular security  and penetration testing on your containerized applicat
  Compliance:
 Ensure  your containerized applications comply with applicable industry regulations and safety standards. GCP provides compliance certifications and tools to help you.
 
-A. MySQL Container Hardening:
+### A. MySQL Container Hardening:
 
 a. Use Official Images:
 Start with the official MySQL container image from a reputable source like Docker Hub. Official images are typically maintained and updated regularly to address security vulnerabilities.
@@ -76,7 +76,7 @@ Disable remote root login to the MySQL server. Allow remote access only for spec
 f. Network Isolation:
 Use Kubernetes Network Policies or similar tools to restrict network access to the MySQL container. Allow only necessary connections.
 
-B. .NET Container Hardening:
+### B. .NET Container Hardening:
 
 a. Use Official Images:
 Start with official .NET container images provided by Microsoft. These images are well-maintained and trusted.
@@ -115,18 +115,16 @@ It can result in several demerits, including security vulnerabilities and operat
 11.	Resource Wastage: Insecure containers might consume more resources than necessary, affecting the efficiency and cost-effectiveness of your infrastructure.
 12.	Lack of Audit Trail: Without proper security measures, it can be challenging to establish an audit trail of events and actions within containers, making it difficult to investigate security incidents.
 
-Conclusion
+## Conclusion
 
 Container hardening is a critical aspect of modern application security. It helps protect containerized applications like MySQL, .NET, and React from vulnerabilities and potential cyber threats. In GCP, numerous tools and services are available to assist with container hardening, ensuring that your applications are secure and compliant.
 
-References
+## References
 
-Docker Security: https://docs.docker.com/engine/security/
-OWASP Container Security Guide: https://owasp.org/www-project-container-security-top-ten/ 
-Google Kubernetes Engine Security: https://cloud.google.com/kubernetes-engine/docs/concepts/security-overview 
-Google Cloud Security Command Center: https://cloud.google.com/security-command-centerisk 
-
-References and Books for Container Hardening:
+- Docker Security: https://docs.docker.com/engine/security/
+- OWASP Container Security Guide: https://owasp.org/www-project-container-security-top-ten/ 
+- Google Kubernetes Engine Security: https://cloud.google.com/kubernetes-engine/docs/concepts/security-overview 
+- Google Cloud Security Command Center: https://cloud.google.com/security-command-centerisk 
 
 1. Docker Security by Adrian Mouat
 It has in-depth understanding of Docker container security, including best practices for securing your containerized applications.
@@ -154,7 +152,6 @@ The Awesome Docker Security repository on GitHub provides a curated list of Dock
 OWASP Cheat Sheet Series
 
 9. Docker Documentation
-
 Docker's official documentation provides detailed information on best practices for securing Docker containers.
 
  
