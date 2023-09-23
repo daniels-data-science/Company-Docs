@@ -18,4 +18,4 @@ Terraform is a declarative configuration language which attempts to deploy the r
 
 For example, you define a storage bucket in code and use Terraform to deploy it. You might think that if you run the deployment a second time, you will end up with 2 storage buckets. However, Terraform will see that it has already deployed that storage bucket and will not make any changes. If the bucket configuration has changed manually and it's state is not in sync with the Terraform state, Terraform will restore the storage bucket's configuration so it matches what is definide in code. Furthermore, if you delete the storage bucket configuration from your code and run a new Terraform deployment, that bucket will also be removed from GCP. 
 
-
+Terraform supports either `local` or `remote` state files. Local state will be saved as a file locally, whereas remote statefiles are automatically stored and updated in a remote file repository. 
