@@ -52,3 +52,11 @@ If you have made changes to the Terraform configuration, you can run `terraform 
 When you are ready for the changes to be deployed to GCP, run `terraform apply`.
 
 Next, navigate to the `terraform/kubernetes` directory and repeat the steps above for running `init`, `plan` and `apply` when there are changes to be made. The configuration in `terraform/gcp` must be deployde first, as the GKE cluster resources must be deployed before the kubernetes configurations can be deployed.
+
+## Work in Progress
+
+- [ ] Setup permissions to run full deployments for Food Remedy API project. Must work with Deakin IT to get this done. Trial and Error process, however the Terraform configuration should give an indication of what permissions are required.
+- [ ] Automate Terraform deployments with Github Actions. Start with `terraform validate` and `terraform plan` checks for PR validation. Then, automate `terraform apply` for the `main` branch on merge.
+- [ ] Domain name and DNS. We need to register a domain name for the Food Remedy API. This will be used for the frontend and backend. We will also need to setup DNS records for the domain name to point to the frontend and backend services. What name?
+- [ ] Automate docker deployments to Google Artifact repos. Backend, database and frontend images should be built and pushed to GCP, to be picekd up and executed by Kubernetes. Three Artifact repos, one for each image.
+- [ ] Run `Docker build` for PR validation.
