@@ -18,4 +18,37 @@ Terraform is a declarative configuration language which attempts to deploy the r
 
 For example, you define a storage bucket in code and use Terraform to deploy it. You might think that if you run the deployment a second time, you will end up with 2 storage buckets. However, Terraform will see that it has already deployed that storage bucket and will not make any changes. If the bucket configuration has changed manually and it's state is not in sync with the Terraform state, Terraform will restore the storage bucket's configuration so it matches what is definide in code. Furthermore, if you delete the storage bucket configuration from your code and run a new Terraform deployment, that bucket will also be removed from GCP. 
 
-Terraform supports either `local` or `remote` state files. Local state will be saved as a file locally, whereas remote statefiles are automatically stored and updated in a remote file repository. 
+### Terraform State
+
+Terraform supports either `local` or `remote` state files. Local state will be saved as a file locally, whereas remote statefiles are automatically stored and updated in a remote file repository. For Food Remedy API, remote state is preferred because:
+
+1. State is autoamtically backed up to the cloud in durable storage.
+2. It eliminates the need for the state file to be shared amongst developers (it is bad practice to push the state file to github as it will contain sensitive information).
+
+The catch is that the storage bucket which contains the state file must be manually created and cannot truly be managaed by Terraform (chicken-and-egg problem).
+
+Here is an example configuration to use remote state.
+
+```terraform
+backend "gcs" {
+    bucket = "foodremedy-api-tfstate"
+    prefix = "foodremedy/gcp"
+  }
+```
+
+Take note of the `prefix` value. This must be unique for any terraform project which is using the `foodremedy-api-tfstate` bucket, otherwise the state file will be overriden. 
+
+
+### Terraform: `Init`, `Plan` and `apply`
+
+For this you must have Terraform installed for your system. You will also need the `gcloud` CLI installed and authenticated to the Food Remedy API project
+
+To begin working with Terraform for Food Remedy, checkout the `Gopher-Industries/foodremedy-api` github repo. It is recommended to use **Visual Studio Code** with the **Hashicorp Terraform** extension: https://marketplace.visualstudio.com/items?itemName=HashiCorp.terraform
+
+Navigate to `terraform/gcp` via the command line, and run `terraform init`, which will install dependencies for the GCP provider.
+
+If you have made changes to the Terraform configuration, you can run `terraform plan` to see what effect they will have. 
+
+When you are ready for the changes to be deployed to GCP, run `terraform apply`.
+
+Next, navigate to the `terraform/kubernetes` directory and repeat the steps above for running `init`, `plan` and `apply` when there are changes to be made. The configuration in `terraform/gcp` must be deployde first, as the GKE cluster resources must be deployed before the kubernetes configurations can be deployed.
