@@ -60,3 +60,6 @@ Next, navigate to the `terraform/kubernetes` directory and repeat the steps abov
 - [ ] Domain name and DNS. We need to register a domain name for the Food Remedy API. This will be used for the frontend and backend. We will also need to setup DNS records for the domain name to point to the frontend and backend services. What name?
 - [ ] Automate docker deployments to Google Artifact repos. Backend, database and frontend images should be built and pushed to GCP, to be picekd up and executed by Kubernetes. Three Artifact repos, one for each image.
 - [ ] Run `Docker build` for PR validation.
+- [ ] Setup budget alerts for Food Remedy API project. This will prevent us from being charged for resources we don't need.
+- [ ] Security: GCP Artifact Repo for Docker - enable image scanning features and find ways to report issues to developers.
+- [ ] Security: Execute vulnerability scans and penetration tests on the Food Remedy API.
