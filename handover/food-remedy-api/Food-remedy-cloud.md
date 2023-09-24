@@ -10,7 +10,7 @@ Access to the `sit-23t2-food-remedy-7f9b4c0` GCP project is enabled via a Deakin
 
 ## Food Remedy API Cloud Development
 
-We are looking to implement an architecture defined in this document: https://deakin365.sharepoint.com/:w:/s/GopherIndustries2/ERbhoMywyK5Bmuz7lgunM3cBT1vyYciZIuLPgytqd2rcNg?e=lSnwSJ
+We are looking to implement an architecture defined in this [document](https://github.com/Gopher-Industries/Company-Docs/blob/7c1d93ec41710bbb5838b25603feb74d96cf7b12/handover/food-remedy-api/foodremedy-cloud-solution-design.md)
 
 To build our infrastructure we are using the `Terraform` IAC tool in the `foodrememdy-api` repo: https://github.com/Gopher-Industries/foodremedy-api/tree/48febb6c3bd59d00918193a3c33d06c4eea7dcdd/terraform
 
