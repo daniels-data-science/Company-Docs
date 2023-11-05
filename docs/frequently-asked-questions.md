@@ -168,9 +168,3 @@ We encourage you to contribute across the board; not to work themselves into one
 ### **How can I seek help or ask questions if I need assistance? (updated)**
 
 If you have specific company questions, try posting on the Gopher Industries general channel. Otherwise, try contacting one of the 3Cs leaders or any leadership members or the acting director. For more unit-specific questions, it is advised to contact your unit coordinator.
-
-- Our Unit Chair: LENNON CHANG
-- Our Acting Director: JESSE MCMEIKAN
-- Our Git Leads: EREENA BAGGA and JYHE MARK
-- Our Comms Leads: VANESSA JOSEPHINE MATTEA
-- Our Product Backlog Leads: DAN EASTAUGH, NAVRAJ DEEP KAUR, XINYAO CHENG, and GUBEIBEI SUN

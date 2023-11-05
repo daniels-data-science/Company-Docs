@@ -6,6 +6,7 @@ Welcome to the Gopher Industries Documentation Repository! This Git repository s
 
 1. [Introduction](#introduction)
 2. [Getting Started](#getting-started)
+3. [Who to talk to](#who-to-talk-to)
 3. [Quick links](#quick-links)
     - [Company Vision & Policies](#company-vision-and-policies)
     - [FAQs](#faqs)
@@ -22,6 +23,20 @@ If you're new to Git and GitHub, here are some resources to help you get started
 
 - [Git Handbook](https://guides.github.com/introduction/git-handbook/)
 - [GitHub Hello World](https://guides.github.com/activities/hello-world/)
+
+## Who to talk to
+- Unit Chairs:
+    - **SIT378/SIT782**: Dr. Atul Sajjanhar
+    - **SIT374/SIT764**: Prof. Lennon Chang
+- Gopher Industries Acting Director: Jesse McMeikan
+- Git leads:
+    - Jyhe Mark
+    - (TBD)
+- Trello lead: Lachlan Vass
+- Project leads:
+    - **Nutrihelp**: (TBD)
+    - **Guardian**: (TBD)
+    - **Food Remedy API**: Jyhe Mark
 
 ## Quick links:
 ### Company Vision and Policies
