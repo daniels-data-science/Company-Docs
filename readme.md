@@ -28,7 +28,7 @@ If you're new to Git and GitHub, here are some resources to help you get started
 - Unit Chairs:
     - **SIT378/SIT782**: Dr. Atul Sajjanhar
     - **SIT374/SIT764**: Prof. Lennon Chang
-- Gopher Industries Acting Director: Jesse McMeikan
+- Gopher Industries Acting Director: Bahareh Nakisa
 - Git leads:
     - Jyhe Mark
     - (TBD)
