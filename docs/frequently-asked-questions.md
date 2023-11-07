@@ -151,7 +151,7 @@ Here is an overview of what Product Standup Meetings entail:
 
   - *Coordination and Collaboration:* Standup Meetings provide an opportunity for team members to coordinate efforts, ask questions, and collaborate on tasks that may require joint efforts.
 
-## **What happens if I cannot make a meeting?**
+### **What happens if I cannot make a meeting?**
 
 The fortnightly sprint review meetings with the company director will be recorded. The fortnightly team meetings will not. This is to allow an honest, open discussion. We understand not everyone will be able to make each meeting, so try to pick a project that you can make the most meetings. Otherwise, contact your project leader to gain an update and volunteer for some roles.
 
@@ -159,7 +159,7 @@ The fortnightly sprint review meetings with the company director will be recorde
 
 You need to download the Worklog Excel template provided in the Files tab in the Gopher Industries General channel. Then record the date, duration, activity type and description of your contributions. Depending on the activities, it is advised you log 100-150 hours (depending on your target grade) to pass capstone units. If you need further assistance, reach out for help from the leadership team.
 
-## **Do I get to pick what products I want to join?**
+### **Do I get to pick what products I want to join?**
 
 We encourage you to contribute across the board; not to work only for one product. To get involved in the product of interest, please reach out to the product backlog lead to express your interest and how you can contribute. There will be an expression of interest announcement during week 1/2 of the unit to track all student participation. 
 
