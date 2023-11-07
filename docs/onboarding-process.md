@@ -16,17 +16,17 @@ We utilize GitHub as our code repository. All our product repositories are house
 
 Here is a link to our GitHub: [Gopher Industries · GitHub](https://github.com/gopher-industries)
 
-Here are our Git Leads: 
-T2 2023: EREENA BAGGA and JYHE MARK
-T3 2023: JYHE MARK
+Here are our Git Leads:  
+T2 2023: EREENA BAGGA and JYHE MARK  
+T3 2023: JYHE MARK  
 
 ### Communication
 
 For direct communication with students and updates about events, we use MS Teams. Our Comms Leads manage this communication and also handle Company-wide OnTrack submissions.
 
-Here are our Comms Leads: 
-*T2 2023*: VANESSA JOSEPHINE MATTEA
-*T3 2023*: JOHN LEONG
+Here are our Comms Leads:  
+*T2 2023*: VANESSA JOSEPHINE MATTEA  
+*T3 2023*: JOHN LEONG  
 
 ### Coordination
 
