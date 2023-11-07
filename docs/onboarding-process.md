@@ -34,9 +34,9 @@ Trello serves as our main source of truth for all ongoing activities in Gopher I
 
 Our Trello Workspace is located here: [Gopher Industries Trello Workspace](https://trello.com/invite/gopherindustries3/ATTIfc98e6ebf94d61601f09d91a7ce2e06e82383EF8)
 
-Our Product Backlog Leads are: 
-*T2 2023*: DAN EASTAUGH, NAVRAJ DEEP KAUR, XINYAO CHENG, and GUBEIBEI SUN
-*T3 2023*: JHYE MARK, LACHLAN VASS
+Our Product Backlog Leads are:  
+*T2 2023*: DAN EASTAUGH, NAVRAJ DEEP KAUR, XINYAO CHENG, and GUBEIBEI SUN  
+*T3 2023*: JHYE MARK, LACHLAN VASS  
 
 ## Our Products
 
