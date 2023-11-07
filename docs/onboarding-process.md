@@ -16,13 +16,17 @@ We utilize GitHub as our code repository. All our product repositories are house
 
 Here is a link to our GitHub: [Gopher Industries · GitHub](https://github.com/gopher-industries)
 
-Here are our Git Leads: EREENA BAGGA and JYHE MARK
+Here are our Git Leads: 
+T2 2023: EREENA BAGGA and JYHE MARK
+T3 2023: JYHE MARK
 
 ### Communication
 
 For direct communication with students and updates about events, we use MS Teams. Our Comms Leads manage this communication and also handle Company-wide OnTrack submissions.
 
-Here are our Comms Leads: VANESSA JOSEPHINE MATTEA
+Here are our Comms Leads: 
+*T2 2023*: VANESSA JOSEPHINE MATTEA
+*T3 2023*: JOHN LEONG
 
 ### Coordination
 
@@ -30,7 +34,9 @@ Trello serves as our main source of truth for all ongoing activities in Gopher I
 
 Our Trello Workspace is located here: [Gopher Industries Trello Workspace](https://trello.com/invite/gopherindustries3/ATTIfc98e6ebf94d61601f09d91a7ce2e06e82383EF8)
 
-Our Product Backlog Leads are: DAN EASTAUGH, NAVRAJ DEEP KAUR, XINYAO CHENG, and GUBEIBEI SUN
+Our Product Backlog Leads are: 
+*T2 2023*: DAN EASTAUGH, NAVRAJ DEEP KAUR, XINYAO CHENG, and GUBEIBEI SUN
+*T3 2023*: JHYE MARK, LACHLAN VASS
 
 ## Our Products
 
@@ -79,6 +85,6 @@ Once you have familiarized yourself with our structure and operations, the next 
 
 5. **Consult the FAQ**
 
-   We have a comprehensive Gopher FAQ that is your go-to for any questions you may have. It is also a good place to find important information or guides. We will keep updating the FAQ document (Thanks to our contributors JAYAMINI DE SILVA and JOHN LEONG CHIN THO!). [Here is a link to the FAQ.](https://github.com/Gopher-Industries/company-docs/blob/master/docs/frequently-asked-questions.md)
+   We have a comprehensive Gopher FAQ that is your go-to for any questions you may have. It is also a good place to find important information or guides. We will keep updating the FAQ document. [Here is a link to the FAQ.](https://github.com/Gopher-Industries/company-docs/blob/master/docs/frequently-asked-questions.md)
 
 We are excited to have you on board and look forward to your contributions to Gopher Industries. Let's get started!
