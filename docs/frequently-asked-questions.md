@@ -2,7 +2,7 @@
 
 ## **Table of Contents**
 
-1. [What is Capstone?](#what-is-capstone)
+1. [What is Capstone?](#what-is-capstone) 
 2. [What is Gopher Industries?](#what-is-gopher-industries)
 3. [How does Gopher Industries aim to improve people's health and well-being?](#how-does-gopher-industries-aim-to-improve-peoples-health-and-well-being)
 4. [What is a project?](#what-is-a-project)
@@ -26,7 +26,11 @@
 22. [What happens if I encounter challenges or conflicts within the team? Is there a process to address such issues?](#what-happens-if-i-encounter-challenges-or-conflicts-within-the-team-is-there-a-process-to-address-such-issues)
 23. [Can I collaborate with students from other teams or faculties within Deakin University on Gopher projects?](#can-i-collaborate-with-students-from-other-teams-or-faculties-within-deakin-university-on-gopher-projects)
 24. [How can I seek help or ask questions if I need assistance?](#how-can-i-seek-help-or-ask-questions-if-i-need-assistance)
-25. [Contributors to this document](#contributors-to-this-document)
+25. [What opportunities exist for showcasing our products and achievements? ](#what-opportunities-exist-for-showcasing-our-products-and-achievements)
+26. [How can I stay updated on the latest industry trends relevant to our projects?](#how-can-i-stay-updated-on-the-latest-industry-trends-relevant-to-our-projects)
+27. [Is there a mentorship program for junior members within Gopher Industries?](#is-there-a-mentorship-program-for-junior-members-within-gopher-industries)
+28. [How does Gopher Industries celebrate achievements and milestones?](#how-does-gopher-industries-celebrate-achievements-and-milestones)
+29. [Contributors to this document](#contributors-to-this-document)
 
 
 ### **What is Capstone?**
@@ -191,9 +195,25 @@ You are encouraged to collaborate with other students or teams or faculties with
 
 If you have specific company questions, try posting on the Gopher Industries general channel. Otherwise, contact one of the 3Cs leaders, any leadership members, or the acting director. For more unit-specific questions, it is advised to contact your unit coordinator. 
 
+### **What opportunities exist for showcasing our products and achievements?** 
+
+Gopher Industries provides opportunities such as participating in the annual INNOFES event and collaborating with industrial partners. These events offer a platform to showcase products, connect with professionals in the industry, and gain exposure.  
+
+### **How can I stay updated on the latest industry trends relevant to our projects?** 
+
+Gopher Industries encourages continuous learning. Stay informed by actively participating in relevant forums, webinars, and industry publications. The leadership team may also share resources and updates on emerging technologies within the MS Teams channels. 
+
+### **Is there a mentorship program for junior members within Gopher Industries?**  
+
+While there is not a formal mentorship program, senior members are encouraged to guide and support junior members. Junior members can reach out to the leadership team or experienced contributors for advice, feedback, and mentorship. 
+
+### **How does Gopher Industries celebrate achievements and milestones?**
+
+Gopher Industries recognizes and celebrates achievements through various means, including shout-outs in team meetings, acknowledgment in company-wide communications, and potentially during events like INNOFES. Major milestones may also be commemorated with special recognitions. 
+
 ### **Contributors to this document**
 **T2 2023:**
-Vanessa, Jayamini, John Leong
+Vanessa, Jayamini De Silva, John Leong
 
 **T3 2023:**
-John Leong
+John Leong ,Jayamini De Silva
