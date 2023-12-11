@@ -1,0 +1,235 @@
+# Project Handover Document
+
+**Company:** Gopher
+
+**Project:** Guardian
+
+**Trimester 3, 2023**
+
+## Table of Contents
+
+- [Project Handover Document](#project-handover-document)
+  - [Table of Contents](#table-of-contents)
+  - [Project Information](#project-information)
+    - [Company Acting Director](#company-acting-director)
+    - [Project Team](#project-team)
+  - [Project Overview](#project-overview)
+  - [User Manual](#user-manual)
+  - [Completed Deliverables](#completed-deliverables)
+    - [Auto-login Enhancement](#auto-login-enhancement)
+    - [Nurse User Implementation](#nurse-user-implementation)
+    - [Login and Registration Improvements](#login-and-registration-improvements)
+    - [Patient Management](#patient-management)
+    - [UI Improvements](#ui-improvements)
+    - [Code Quality and DevOps](#code-quality-and-devops)
+    - [Documentation](#documentation)
+  - [Roadmap](#roadmap)
+  - [Open Issues](#open-issues)
+  - [Lessons Learned](#lessons-learned)
+  - [Product Development Life Cycle](#product-development-life-cycle)
+  - [New Tasks](#new-tasks)
+  - [Definition of Done](#definition-of-done)
+  - [Task Review](#task-review)
+  - [Testing](#testing)
+  - [Branching Strategy](#branching-strategy)
+  - [Product Architecture](#product-architecture)
+    - [UML Diagram](#uml-diagram)
+    - [Tech Stack](#tech-stack)
+  - [Source Code](#source-code)
+  - [Login Credentials](#login-credentials)
+  - [Appendices](#appendices)
+
+## Project Information
+
+### Company Acting Director
+
+- **Name:** Dr. Bahareh Nakisa
+- **Title:** Lecturer, Applied Artificial Intelligence
+- **Email:** <bahar.nakisa@deakin.edu.au>
+
+### Project Team
+
+- **Project Name:** Guardian
+- **Company:** Gopher
+
+## Project Overview
+
+Guardians is an activity monitoring and profiling system for the aged care sector with plans to
+expand to residential homes. Guardians uses non-invasive radar technology to record a user's
+activity and classify these activities over time. Guardians utilises the classified data to predict
+possible physical and mental health conditions associated with that behaviour.
+
+The goal of the project is to alert the patient's carer and/or health professional to unusual
+changes in monitored behaviour. Additionally, Guardians detects more urgent incidents such as fall
+detection.The key features of Guardian are:
+
+- Patent profile capture, edit and search.
+- Monitoring and profiling patient activities.
+- Alerting caregivers and supervisors during an emergency.
+- Predicting potential physical and mental health conditions at an early stage.
+- Providing suggestions to see a health professional based on health issues detected.
+- Encouraging positive activities.
+- Generating weekly and monthly activity dashboards.
+- Providing access to accurate real-time visualisation and patient position(s).
+- Ability to define a baseline for a patient.
+- User management allows for defining Patient, Carer, and Admin users.
+
+## User Manual
+
+1. Launch app via Android Studio on a physical device or in the emulator
+2. Press the **Get Started** button in the first screen to enter the login screen
+3. Register a new User via the Register screen
+4. After you receive the email verification link to your Email address, click the link to confirm your user is verified
+5. Login using your email address and password. Choose a role.
+
+## Completed Deliverables
+
+### Auto-login Enhancement
+
+- Enabled auto-login with fixes to avoid requiring the user to re-login when the app is minimized.
+
+### Nurse User Implementation
+
+- Allow login as a nurse user.
+- Nurse user homepage.
+- Nurse user task list.
+- Implement Caretaker profile screen.
+
+### Login and Registration Improvements
+
+- Enabled Google Sign-in support.
+- Enforced password confirmation on registration.
+- Enforced stronger password standards.
+- Enforced email validation for new users.
+
+### Patient Management
+
+- Added a "Add Patient" button in the Patient list and on the add new patient screen.
+- Implemented swipe-to-delete functionality for patients in the patient list with delete confirmation.
+- Archived patient list – view list of recently deleted patients.
+- Animated patient status icon in the patient list.
+- Heart rate data entry and chart visualization with app-themed chart styling and navigation from the patient medical diagnostics screen.
+
+### UI Improvements
+
+- Redesigned Caretaker homepage.
+- Improved Theme control switch on the Settings screen.
+- Removed Arrow icons on the Settings screen, which imply navigation to another screen.
+- Updated placeholder text on the Welcome screen with text meaningful to the Guardian application.
+- Added Role-specific welcome text on each homepage.
+- Fixed the issue where the hamburger sidebar menu only works on the patient list screen.
+
+### Code Quality and DevOps
+
+- Implemented a pipeline to build, test, and lint the app.
+- Fixed ~45 Android lint errors and ~500 Android lint warnings.
+- Migrated about 44.8% of the codebase from Java to Kotlin.
+- Replaced hardcoded UI strings with translatable string resources.
+- Removed useless test file in the repo (newtestfile.txt).
+- Replaced the placeholder project package name with one specific to Guardian.
+- Added a License file to the repo.
+
+### Documentation
+
+- Documented password strength requirements for health applications.
+- Documented self-hosted backend security standards.
+- Documented database security requirements and legislation for health apps.
+
+## Roadmap
+
+1. **Support Multi-Tenancy**
+   - Enable multi-tenancy for the application databases.
+
+2. **Machine Learning Model Integration**
+   - Integrate machine learning model outputs into the Android application.
+
+3. **Nurse User Feature Set**
+   - Complete the nurse user feature set.
+
+4. **Theming Update**
+   - Update theming to match the Caretaker profile color palette (darker blue, flat icons).
+
+5. **Google Sign-In Integration**
+   - Integrate backend with Google Sign-In (enable in Firebase Authentication service).
+
+6. **Database Integration**
+   - Integrate database with heart rate data.
+   - Integrate database with the patient archive list.
+   - Integrate database with the nurse task list, allowing nurses to be assigned tasks by admins.
+
+7. **Self-Hosted Backend Connection**
+   - Allow application users to optionally connect to a self-hosted backend within the app.
+
+8. **Security Implementation**
+   - Implement documented security recommendations.
+
+## Open Issues
+
+See [Trello Backlog](https://trello.com/b/jszQMoj0/major-product-1-guardian-monitor)
+
+## Lessons Learned
+
+This trimester the Guardian team faced delays whilst being unable to gain access to the Firebase Admin console.
+In future, project teams should:
+
+1. Request Firebase access early to ensure there are no delays that would limit backend work for the project
+2. Continue investigating self-hosted backend options which are compatible with Firebase.
+
+## Product Development Life Cycle
+
+1. Use a simple branching strategy where a branch is raised for each task and a pull request is raised back to the master branch.
+2. PRs should be reviewed by a team leader who is experienced in the area of development. Feedback should be given for improvements and applied.
+3. Once approved by a reviewer, the PR can be merged if the CI run passes and there's no conflicts.
+
+## New Tasks
+
+Tasks can be created on the trello board by any team member.
+Team member's are encouraged to create new tasks if they find bugs to be fixed, or have ideas for improvements.
+
+## Definition of Done
+
+When it is reviewed and tested. It must fulfill the specification of the Trello task.
+
+## Task Review
+
+A project lead, or another team member with experience in the area of development of each task.
+
+## Testing
+
+1. Unit tests to validate the functionality of pure Kotlin and Java code (not Android specific)
+2. Instrumented UI tests to validate UI behaviour
+3. Manual tests
+
+## Branching Strategy
+
+A simple workflow is followed where tasks are completed in each developer's project fork.
+After that a PR is raised to merge changes into the master branch of the primary Guardian repository.
+
+## Product Architecture
+
+### UML Diagram
+
+Provide a high-level map of the project showing all of its components and how they relate to each other.
+
+### Tech Stack
+
+- Android SDK
+- Android Studio
+- Java
+- Kotlin
+- Firebase Authentication
+- Firebase Firestore database
+
+## Source Code
+
+<https://github.com/Gopher-Industries/Guardian>
+
+## Login Credentials
+
+For the Android application to run locally, each developer must add an API key to the `google-services.json` file. **These credentials must not be committed to the repo**
+
+These credentials can be found [In Microsoft Teams](https://deakin365.sharepoint.com/:f:/r/sites/GopherIndustries2/Shared%20Documents/Guardian%20Weekly%20Meeting%20Channel/Credentials?csf=1&web=1&e=m5czYz)
+
+## Appendices
+
+Include all relevant artifacts delivered during the course of the project. Please also include a link to your team's showcase video.
