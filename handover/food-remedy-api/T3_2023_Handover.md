@@ -181,3 +181,5 @@ Our industry contact at Food Remedy is Shura Ford. She currently has access to t
 - [UI / UX View proposals](https://deakin365.sharepoint.com/:b:/r/sites/GopherIndustries2/Shared%20Documents/Food%20Remedy%20Weekly%20Meeting%20Channel/Food_Remedy_UXUI_Proposal_T3_2023.pdf?csf=1&web=1&e=GvggaE)
 
 - [End of T3 Presentation](https://deakin365.sharepoint.com/:b:/r/sites/GopherIndustries2/Shared%20Documents/Food%20Remedy%20Weekly%20Meeting%20Channel/FoodRemedy_EoT3.pdf?csf=1&web=1&e=brGtAY)
+
+- [End of T3 Demo](https://deakin365.sharepoint.com/:v:/r/sites/GopherIndustries2/Shared%20Documents/Food%20Remedy%20Weekly%20Meeting%20Channel/FoodRemedy_EoT3_Demo.mp4?csf=1&web=1&e=Rtbwzx)
